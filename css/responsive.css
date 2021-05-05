@@ -1,0 +1,262 @@
+@media only screen and (max-width: 600px) {
+    body {
+        box-sizing: border-box;
+    }
+    .header {
+        box-sizing: border-box;
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+    }
+    .logo {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        float: none;
+    }
+    .menu {
+        padding: 0;
+        margin: 0;
+        float: none;
+        width: 100%;
+        position: static;
+    }
+    .slider .button1 {
+        margin-left: 50px;
+        margin-top: 110px;
+    }
+    .menu ul {
+        box-sizing: border-box;
+    }
+    .menu ul li {
+        box-sizing: border-box;
+        width: 33%;
+    }
+    .slider {
+        margin-top: 120px;
+        width: 100%;
+        position: relative;
+    }
+    .slide-container {
+        width: 100%;
+    }
+    .detail {
+        width: 300px;
+        margin-left: 40px;
+        margin-top: -40px;
+    }
+    .slider .text h2 {
+        font-size: 12px;
+        width: 100%;
+    }
+    .desc {
+        font-size: 7px;
+        width: 300px;
+    }
+    .slider .text::after {
+        visibility: hidden;
+    }
+    .mySlides {
+        width: 100%;
+    }
+    .text1 {
+        width: 100%;
+        margin: 0;
+    }
+    .text1 h2 {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .text1::after {
+        visibility: hidden;
+    }
+    .text1 h4 {
+        visibility: hidden;
+    }
+    .desc1 {
+        font-size: 7px;
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 50%;
+    }
+    .slider .btn {
+        padding: 4px 10px;
+        font-size: 8px;
+    }
+    .prev,
+    .next {
+        font-size: 10px;
+        padding-bottom: 12px;
+    }
+    .video-container {
+        width: 100%;
+    }
+    .video-container .left,
+    .video-container .right {
+        float: none;
+    }
+    .left {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .left iframe {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        padding-bottom: 60px;
+        margin: auto;
+    }
+    .solution {
+        width: 100%;
+    }
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 100%;
+    }
+    .testimonial {
+        width: 100%;
+        padding-bottom: 300px;
+    }
+    .testimonial .container-testimonial {
+        margin: 0 auto;
+    }
+    .testimonial .header-testimonial h2 {
+        white-space: normal;
+    }
+    .author {
+        margin-top: 200px;
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer .footer-container {
+        display: block;
+    }
+    .aboutUs {
+        width: 80%;
+        padding: 0;
+        margin: 0;
+        margin-left: 20px;
+        position: relative;
+        left: 0;
+    }
+    .aboutUs h3 {
+        white-space: normal;
+    }
+    .support-customer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        left: 0;
+    }
+    .aboutLMS {
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    .right {
+        float: none;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .right .button1 {
+        position: static;
+    }
+    .slider h2 {
+        font-size: 20px;
+    }
+    .right h2::after {
+        margin: auto;
+    }
+    .desc1 {
+        margin-top: 130px;
+        font-size: 12px;
+    }
+    .slider .button1 {
+        margin-top: 250px;
+    }
+    .slider .desc {
+        margin-top: 170px;
+    }
+    .left {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    .solution {
+        width: 100%;
+    }
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 100%;
+    }
+    .testimonial .header-testimonial h2 {
+        white-space: normal;
+    }
+    .author {
+        margin-top: 70px;
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer .footer-container {
+        display: block;
+    }
+    .aboutUs {
+        width: 80%;
+        padding: 0;
+        margin: 0;
+        margin-left: 20px;
+        position: relative;
+        left: 0;
+    }
+    .aboutUs h3 {
+        white-space: normal;
+    }
+    .support-customer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        left: 0;
+    }
+    .aboutLMS {
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:986px) {
+    .logo {
+        margin: 0;
+    }
+    .slider h2 {
+        font-size: 16px;
+    }
+    .slider .desc {
+        font-size: 13px;
+        margin-top: 130px;
+        width: 50%;
+    }
+    .slider .btn {
+        padding: 4px 10px;
+        font-size: 13px;
+    }
+    .slider .desc1 {
+        margin-top: 110px;
+    }
+}
